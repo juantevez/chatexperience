@@ -1,0 +1,21 @@
+{
+    "go.gopath": "/home/juan/go/bin",
+    "go.goroot": "/usr/lib/golang",
+    "go.buildOnSave": "workspace",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.delveConfig": {
+
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 1,
+            "maxStringLen": 64,
+            "maxArrayValues": 64,
+            "maxStructFields": -1
+        },
+        "apiVersion": 2,
+        "showGlobalVariables": false
+    },
+    "terminal.explorerKind": "external",
+    "terminal.integrated.automationShell.linux": "bash"
+}
