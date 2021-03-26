@@ -7,8 +7,7 @@ import (
 	"sync"
 	"text/template"
 	"flag"
-	"chatexperience/internal/client"
-	"chatexperience/internal/service"
+	"juanchat.dev/chatexperience/internal/client/room"
 )
 
 // templ represents a single template
