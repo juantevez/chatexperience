@@ -1,13 +1,13 @@
 package main
 
 import (
+
 	"log"
 	"net/http"
 	"path/filepath"
 	"sync"
 	"text/template"
 	"flag"
-	"juanchat.dev/chatexperience/internal/client/room"
 )
 
 // templ represents a single template
